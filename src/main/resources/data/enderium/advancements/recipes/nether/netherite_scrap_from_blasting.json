@@ -1,0 +1,32 @@
+{
+  "parent": "enderium:recipes/root",
+  "rewards": {
+    "recipes": [
+      "enderium:netherite_scrap_blast"
+    ]
+  },
+  "criteria": {
+    "has_ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:ancient_debris"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:netherite_scrap_blast"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ancient_debris",
+      "has_the_recipe"
+    ]
+  ]
+}

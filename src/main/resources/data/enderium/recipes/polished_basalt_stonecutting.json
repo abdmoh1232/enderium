@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "enderium:basalt"
+  },
+  "result": "enderium:polished_basalt",
+  "count": 1
+}

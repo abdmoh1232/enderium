@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x #",
+    "###"
+  ],
+  "key": {
+    "x": {
+      "item": "enderium:netherite_scrap"
+    },
+    "#": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "enderium:netherite_ingot"
+  }
+}

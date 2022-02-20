@@ -1,0 +1,46 @@
+{
+  "parent": "enderium:recipes/root",
+  "rewards": {
+    "recipes": [
+      "enderium:netherite_block_ingot"
+    ]
+  },
+  "criteria": {
+    "has_at_least_9_netherite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:netherite_ingot",
+            "count": {
+              "min": 9
+            }
+          }
+        ]
+      }
+    },
+    "has_netherite_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:netherite_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:netherite_block_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_at_least_9_netherite",
+      "has_netherite_block",
+      "has_the_recipe"
+    ]
+  ]
+}

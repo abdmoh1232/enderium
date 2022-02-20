@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderium:mystical_crystal"
+    },
+    "title": {
+      "translate": "advancements.enderium.get_mystical_dust.title"
+    },
+    "description": {
+      "translate": "advancements.enderium.get_mystical_dust.description"
+    }
+  },
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "get_crystal_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:mystical_dust"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_crystal_dust"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "enderium:block/stripped_enchanted_log",
+    "side": "enderium:block/stripped_enchanted_log"
+  }
+}

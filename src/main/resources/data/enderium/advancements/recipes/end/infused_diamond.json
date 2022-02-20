@@ -1,0 +1,32 @@
+{
+  "parent": "enderium:recipes/root",
+  "criteria": {
+    "has_mystical_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:mystical_dust"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:infused_diamond"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "enderium:infused_diamond"
+    ]
+  },
+  "requirements": [
+    [
+      "has_mystical_dust",
+      "has_the_recipe"
+    ]
+  ]
+}

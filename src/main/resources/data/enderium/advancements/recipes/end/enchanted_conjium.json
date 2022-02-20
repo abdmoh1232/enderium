@@ -1,0 +1,43 @@
+{
+  "parent": "enderium:recipes/root",
+  "criteria": {
+    "has_complite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:complite"
+          }
+        ]
+      }
+    },
+    "has_mystical_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:mystical_dust"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:enchanted_conjium"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "enderium:enchanted_conjium"
+    ]
+  },
+  "requirements": [
+    [
+      "has_complite",
+      "has_mystical_dust",
+      "has_the_recipe"
+    ]
+  ]
+}

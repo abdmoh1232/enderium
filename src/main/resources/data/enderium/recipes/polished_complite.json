@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "enderium:complite"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "enderium:polished_complite"
+  }
+}

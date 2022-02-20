@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "enderium:enchanted_log",
+    "enderium:enchanted_wood",
+    "enderium:stripped_enchanted_log",
+    "enderium:stripped_enchanted_wood"
+  ]
+}

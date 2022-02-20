@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "enderium:enderium_crystal"
+    }
+  ],
+  "result": {
+    "item": "enderium:enderium_sword"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "enderium:block/complite",
+    "down": "enderium:block/complite",
+    "up": "enderium:block/enchanted_conjium_top",
+    "north": "enderium:block/enchanted_conjium_side",
+    "east": "enderium:block/enchanted_conjium_side",
+    "south": "enderium:block/enchanted_conjium_side",
+    "west": "enderium:block/enchanted_conjium_side"
+  }
+}

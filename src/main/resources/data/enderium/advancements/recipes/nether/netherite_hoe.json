@@ -1,0 +1,32 @@
+{
+  "parent": "enderium:recipes/root",
+  "criteria": {
+    "has_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:netherite_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:netherite_hoe"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "enderium:netherite_hoe"
+    ]
+  },
+  "requirements": [
+    [
+      "has_netherite_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

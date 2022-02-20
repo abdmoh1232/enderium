@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enderium:complite"
+    },
+    {
+      "item": "enderium:mystical_dust"
+    }
+  ],
+  "result": {
+    "item": "enderium:enchanted_conjium"
+  }
+}

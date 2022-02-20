@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "enderium:block/enchanted_wood" },
+    "axis=z": { "model": "enderium:block/enchanted_wood", "x": 90 },
+    "axis=x": { "model": "enderium:block/enchanted_wood", "x": 90, "y": 90 }
+  }
+}

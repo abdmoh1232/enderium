@@ -1,0 +1,32 @@
+{
+  "parent": "enderium:recipes/root",
+  "criteria": {
+    "has_enderium_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:enderium_crystal"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:enderium_shovel"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "enderium:enderium_shovel"
+    ]
+  },
+  "requirements": [
+    [
+      "has_enderium_crystal",
+      "has_the_recipe"
+    ]
+  ]
+}
