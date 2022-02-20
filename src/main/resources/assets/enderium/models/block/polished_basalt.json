@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "enderium:block/polished_basalt_side",
+    "down": "enderium:block/polished_basalt_top",
+    "up": "enderium:block/polished_basalt_top",
+    "north": "enderium:block/polished_basalt_side",
+    "east": "enderium:block/polished_basalt_side",
+    "south": "enderium:block/polished_basalt_side",
+    "west": "enderium:block/polished_basalt_side"
+  }
+}

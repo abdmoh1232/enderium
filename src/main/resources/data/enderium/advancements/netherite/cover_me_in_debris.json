@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderium:netherite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.netherite.cover_me_in_debris.title"
+    },
+    "description": {
+      "translate": "advancements.netherite.cover_me_in_debris.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "enderium:netherite/hidden_in_the_depths",
+  "criteria": {
+    "has_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:netherite_helmet"
+          },
+          {
+            "item": "enderium:netherite_chestplate"
+          },
+          {
+            "item": "enderium:netherite_leggings"
+          },
+          {
+            "item": "enderium:netherite_boots"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "requirements": [
+    [
+      "has_armor"
+    ]
+  ]
+}

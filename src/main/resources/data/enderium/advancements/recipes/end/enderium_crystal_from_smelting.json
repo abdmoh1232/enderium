@@ -1,0 +1,32 @@
+{
+  "parent": "enderium:recipes/root",
+  "rewards": {
+    "recipes": [
+      "enderium:enderium_crystal_smelt"
+    ]
+  },
+  "criteria": {
+    "has_infused_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:infused_diamond"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:enderium_crystal_smelt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_infused_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

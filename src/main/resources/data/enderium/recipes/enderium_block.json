@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "enderium:enderium_crystal"
+    }
+  },
+  "result": {
+    "item": "enderium:enderium_block"
+  }
+}

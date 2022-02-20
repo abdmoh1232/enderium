@@ -1,0 +1,32 @@
+{
+  "parent": "enderium:recipes/root",
+  "criteria": {
+    "has_enchanted_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:enchanted_log"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:enchanted_wood"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "enderium:enchanted_wood"
+    ]
+  },
+  "requirements": [
+    [
+      "has_enchanted_log",
+      "has_the_recipe"
+    ]
+  ]
+}

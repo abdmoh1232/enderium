@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderium:netherite_hoe"
+    },
+    "title": {
+      "translate": "advancements.netherite.serious_dedication2.title"
+    },
+    "description": {
+      "translate": "advancements.netherite.serious_dedication2.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "minecraft:husbandry/break_diamond_hoe",
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+		  {
+		    "item": "enderium:netherite_hoe"
+		  }
+	    ]
+	  }
+    }
+  },
+  "requirements": [
+    [
+      "get_hoe"
+    ]
+  ]
+}

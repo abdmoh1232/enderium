@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "enderium:block/stripped_enchanted_log",
+    "down": "enderium:block/stripped_enchanted_log_top",
+    "up": "enderium:block/stripped_enchanted_log_top",
+    "north": "enderium:block/stripped_enchanted_log",
+    "east": "enderium:block/stripped_enchanted_log",
+    "south": "enderium:block/stripped_enchanted_log",
+    "west": "enderium:block/stripped_enchanted_log"
+  }
+}

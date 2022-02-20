@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderium:enderium_chestplate"
+    },
+    "title": {
+      "translate": "advancements.enderium.invincible_enderium-man.title"
+    },
+    "description": {
+      "translate": "advancements.enderium.invincible_enderium-man.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "enderium:enderium/get_mystical_dust",
+  "criteria": {
+    "has_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:enderium_helmet"
+          },
+          {
+            "item": "enderium:enderium_chestplate"
+          },
+          {
+            "item": "enderium:enderium_leggings"
+          },
+          {
+            "item": "enderium:enderium_boots"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "requirements": [
+    [
+      "has_armor"
+    ]
+  ]
+}

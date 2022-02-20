@@ -1,0 +1,32 @@
+{
+  "parent": "enderium:recipes/root",
+  "rewards": {
+    "recipes": [
+      "enderium:netherite_ingot"
+    ]
+  },
+  "criteria": {
+    "has_netherite_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:netherite_scrap"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:netherite_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_scrap",
+      "has_the_recipe"
+    ]
+  ]
+}

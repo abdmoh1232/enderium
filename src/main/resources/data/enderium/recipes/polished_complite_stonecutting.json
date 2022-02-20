@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "enderium:complite"
+  },
+  "result": "enderium:polished_complite",
+  "count": 1
+}

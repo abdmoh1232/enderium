@@ -1,0 +1,32 @@
+{
+  "parent": "enderium:recipes/root",
+  "rewards": {
+    "recipes": [
+      "enderium:polished_complite_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_complite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:complite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderium:polished_complite_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_complite",
+      "has_the_recipe"
+    ]
+  ]
+}

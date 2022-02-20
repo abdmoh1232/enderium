@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "enderium:ancient_debris"
+  },
+  "result": {
+    "item": "enderium:netherite_scrap"
+  },
+  "experience": 2
+}

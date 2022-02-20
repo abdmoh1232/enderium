@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderium:ancient_debris"
+    },
+    "title": {
+      "translate": "advancements.netherite.hidden_in_the_depths.title"
+    },
+    "description": {
+      "translate": "advancements.netherite.hidden_in_the_depths.description"
+    }
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "got_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "enderium:ancient_debris"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_debris"
+    ]
+  ]
+}
